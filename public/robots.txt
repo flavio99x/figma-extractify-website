@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /404
+Disallow: /500
+
+# Host
+Host: https://figma-extractify-website.vercel.app
+
+# Sitemaps
+Sitemap: https://figma-extractify-website.vercel.app/sitemap.xml
