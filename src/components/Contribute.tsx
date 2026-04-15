@@ -35,7 +35,7 @@ const links = [
 
 export default function Contribute() {
   return (
-    <section id="contribute" className="relative py-32 px-6">
+    <section id="contribute" className="relative pt-32 pb-64 px-6">
       <div className="max-w-5xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-16">

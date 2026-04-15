@@ -1,10 +1,19 @@
 "use client";
 
 import { ArrowDown, Github, Sparkles } from "lucide-react";
+import { FloatingPaths } from "@/components/ui/background-paths";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden grid-bg noise pt-4 pb-10">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden noise">
+      <div className="absolute inset-0">
+
+        <div className='absolute bottom-0 left-0 w-full h-full bg-linear-to-t from-background to-transparent z-5' />
+
+        <FloatingPaths position={1} />
+        <FloatingPaths position={-5} />
+      </div>
+
       {/* Radial glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-accent/5 rounded-full blur-[120px] pointer-events-none" />
 
@@ -20,9 +29,9 @@ export default function Hero() {
         {/* Main heading */}
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tight leading-[0.95] mb-6">
           <span className="block">From Figma</span>
-          <span className="block gradient-text">to code.</span>
+          <span className="block gradient-text">to code</span>
           <span className="block text-muted-foreground text-3xl sm:text-4xl md:text-5xl font-semibold mt-2">
-            Automatically.
+            Automatically
           </span>
         </h1>
 
