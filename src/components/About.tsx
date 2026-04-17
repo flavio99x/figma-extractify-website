@@ -54,7 +54,7 @@ export default function About() {
 						Your Figma &rarr; Code pipeline
 					</h2>
 					<p className="text-muted text-lg max-w-4xl mx-auto leading-relaxed">
-						Figma Extractify is an AI skill system. Point it at any Figma file and extract your design tokens, build components with automated visual review, and link everything back to Figma Dev Mode.
+						Figma Extractify is a set of Claude Code commands you drop into your project. Point it at any Figma file and extract your design tokens, build components with automated visual review, and link everything back to Figma Dev Mode.
 					</p>
 				</div>
 
@@ -80,7 +80,6 @@ export default function About() {
 					<div className="flex flex-wrap items-center justify-center gap-6 text-sm font-medium text-muted">
 						{[
 							"Claude Code",
-							"Cowork",
 							"Cursor",
 							"Windsurf",
 							"GitHub Copilot",
